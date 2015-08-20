@@ -1,15 +1,15 @@
 {
   "name": "generator-redux-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React-Redux generator for app with feature folders",
   "license": "MIT",
-  "main": "index.js",
+  "main": "app/index.js",
+  "repository": "terpiljenya/generator-redux-component",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-    "name": "",
-    "email": "",
+    "name": "Terpil Jenya",
     "url": "https://github.com/terpiljenya"
   },
   "keywords": ["yeoman-generator", "redux", "react"],
