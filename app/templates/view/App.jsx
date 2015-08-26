@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import * as <%= lowComponentName %>ActionCreators from './actionCreators';
+import { someAction } from './actions';
 
 @connect(({ <%= componentName %> }) => ({ <%= componentName %> }))
 export default class <%= componentName %> extends Component {
@@ -14,7 +14,7 @@ export default class <%= componentName %> extends Component {
 
   constructor(props) {
     super(props);
-    this.actions = bindActionCreators(<%= lowComponentName %>ActionCreators, props.dispatch);
+    this.actions = bindActionCreators({ someAction }, props.dispatch);
   }
 
   render() {

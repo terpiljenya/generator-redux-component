@@ -1,5 +1,7 @@
-import keyMirror from 'react/lib/keyMirror';
+export const events = {
+  ACTION_NAME: 'ACTION_NAME'
+};
 
-export default keyMirror({
-  ACTION_NAME: null
-});
+export function someAction() {
+  return { type: events.ACTION_NAME };
+}
