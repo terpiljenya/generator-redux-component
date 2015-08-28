@@ -14,6 +14,9 @@ Run generator
 ```bash
 yo redux-component
 ```
+Choose component type ([Smart or Dump](https://gist.github.com/terpiljenya/45b9ce90bd3b618338cb))
+
+#### Smart component
 
 Reducers use Imutabale.js for state. I also use `createReducers` function for reduce boilerplate code.
 
@@ -46,3 +49,8 @@ export default function createReducer(initialState, handlers) {
 ```
 
 Don't forget to import generated reducer for `createStore` function!
+
+
+#### Dump component
+
+The dump component use [BEM](https://en.bem.info) by default. You can find `createBEM` function [here](https://gist.github.com/terpiljenya/45b9ce90bd3b618338cb)

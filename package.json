@@ -12,8 +12,13 @@
     "name": "Terpil Jenya",
     "url": "https://github.com/terpiljenya"
   },
-  "keywords": ["yeoman-generator", "redux", "react"],
+  "keywords": [
+    "yeoman-generator",
+    "redux",
+    "react"
+  ],
   "dependencies": {
+    "lodash": "^3.10.1",
     "yeoman-generator": "^0.18.7"
   }
 }
