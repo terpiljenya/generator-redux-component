@@ -14,7 +14,7 @@ Run generator
 ```bash
 yo redux-component
 ```
-Choose component type ([Smart or Dump](https://gist.github.com/terpiljenya/45b9ce90bd3b618338cb))
+Choose component type ([Smart or Dump](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0))
 
 #### Smart component
 
